@@ -1,0 +1,23 @@
+body{
+    padding: 0;
+    margin: 0;
+    height: 100vh;
+    width: 100%; 
+    position: relative; /*Define a posição*/
+    background-image: url(./imgs/Backnetflix.jpg); /*define imagem de fundo*/
+    background-image: cover;
+    background-repeat: no-repeat;/*Não permite que a magem de fundo repita*/
+    font-family: Arial, Helvetica, sans-serif; /*Fonte do body*/
+}
+
+.logo img{
+    height: 45px;
+    width: 167px;
+    position: relative;
+    z-index: 10;
+}
+
+.topo{
+    padding: 40px 50px;
+    z-index: 10;
+}
