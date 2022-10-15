@@ -2,7 +2,6 @@ const email_erick = "Erick@Metflix.com.br"
 const senha_erick = "Erick123"
 const email_lucas = "Lucas@Metflix.com.br"
 const senha_lucas = "Lucas123"
-//asdawdawd
 
 function go(){
     var emailvalidação = document.getElementById("Email").value;
@@ -13,12 +12,9 @@ function go(){
         location.href = "home.html";
     }
     else if(emailvalidação == email_lucas && senhavalidação == senha_lucas){
-        location.href = "home.html";){
-
+        location.href = "home.html";
     }
-    else(
+    else{
         window.alert("Senha ou E-mail incorreto...")
-    )
+    }
 }
-
-//gasdasdasiusd
