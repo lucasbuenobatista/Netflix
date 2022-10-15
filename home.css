@@ -21,3 +21,19 @@ body{
     padding: 40px 50px;
     z-index: 10;
 }
+.films{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: 0;
+    transition: all .2s ease-in-out;
+
+}
+.films:hover{
+    top: -5px;
+}
+
+.figuras{
+    max-width: 100px;
+    max-height: 100px;
+}
