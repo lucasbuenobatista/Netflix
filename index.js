@@ -2,7 +2,7 @@ const email_erick = "Erick@Metflix.com.br"
 const senha_erick = "Erick123"
 const email_lucas = "Lucas@Metflix.com.br"
 const senha_lucas = "Lucas123"
-
+//awdawd
 
 function go(){
     var emailvalidação = document.getElementById("Email").value;
