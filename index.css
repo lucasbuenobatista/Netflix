@@ -12,7 +12,7 @@ body{
 
 body::before{
     content: '';
-    background-color: rgba(0, 0, 1, 0.781);
+    background-color: rgba(0, 0, 1, 0.699);
     width: 100%;
     height: 100%;
     position: absolute;
@@ -34,12 +34,13 @@ body::before{
 }
 
 .login_body{
-    padding: 60px;
+    padding: 50px;
     z-index: 90;
     position: relative;
     max-width: 450px;
-    height: 400px; 
+    min-height: 400px;
     margin-left: 50%;
+    height: 400px; 
     background-color: rgba(37, 37, 37, 0.918);
     border-radius: 10px;
     box-sizing: border-box;
@@ -95,4 +96,17 @@ body::before{
     background-color: rgb(160, 7, 7);
     color: rgb(185, 185, 185);
     cursor: pointer; /*Mouse virar mão*/
+}
+
+.copy{
+    color: #fff;
+    z-index: 1;
+    position: absolute;
+    left: 48%;
+    top: 90%;
+    transform: translate(-50% -50%);
+    max-width: 100px;
+    max-width: 50px;
+    font-size: 10px;
+
 }
