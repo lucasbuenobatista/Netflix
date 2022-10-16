@@ -37,3 +37,75 @@ body{
     max-width: 100px;
     max-height: 100px;
 }
+
+.Texto-filme-pai{
+  align-items:center;
+  display: flex;
+  justify-content: center;
+  padding-bottom: 60px;
+  width: 100%; 
+}
+
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 90%;
+    padding-left: 15px;
+    padding-right: 15px;
+    width: 100%;
+}
+
+.Texto-filme-filho{
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  margin: 60px 0;
+  z-index: 9;
+}
+
+.filme-titulo{
+  color: white;
+  font-family: 'Helvetica Neue', Helvetica,Arial,sans-serif;
+  font-size: 55px;
+  max-width: 70%;
+  text-align: center;
+}
+
+.filme-subtitulo{
+  color: white;
+  font-family: 'Helvetica Neue', Helvetica,Arial, sans-serif;
+  font-size: 25px;
+  font-weight: 300;
+  margin: 20px 0 30px;   
+}
+
+.filme-msg{
+    color: white;
+    font-size: 18px;
+    font-family:'Helvetica Neue', Helvetica,Arial,sans-serif;
+}
+
+.input_pesquisar{
+  display: flex;
+  justify-content: center;
+  width:100%;
+}
+
+.TextoPesquisar{
+    border: 0;
+    background-color: #FFF;
+    border-radius:0;
+    padding: 15px 20px;
+    width: 35%;
+}
+
+.BotaoPesquisar{
+    background-color: #e50914;
+    border: 0;
+    cursor: pointer;
+    color: pointer;
+    font-size: 25px;
+    padding: 15px 30px;
+    transition: all .2s ease-in-out;
+}
