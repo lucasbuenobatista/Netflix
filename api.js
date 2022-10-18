@@ -27,13 +27,13 @@ function Pesquisa(e){
                 console.log(data);
                 let conteudo = '';
                 for(let i = 1; i < data.Search.length; i++){
-                    conteudo += `<li class="films">`;
+                    conteudo += `<li class="filme">`;
                     conteudo += `<figure class="figuras">`;
                     conteudo += `<img class="img" src="${data.Search[i].Poster}"/>`;
                     conteudo += `</figure>`;
                     conteudo += `<legend class="legenda">`;
-                    conteudo += `<span class="ano">${data.Search[i].Year}</span>`;
-                    conteudo += `<h2 class="titulo">${data.Search[i].Title}</h2>`;
+                    //conteudo += `<span class="ano">${data.Search[i].Year}</span>`;
+                    //conteudo += `<h2 class="titulo">${data.Search[i].Title}</h2>`;
                     conteudo += `</legend>`;
                     conteudo += `</li>`;
 
