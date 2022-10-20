@@ -14,12 +14,12 @@ body{
     height: 45px;
     width: 45px;
     position: relative;
-    z-index: 10;
+    z-index: 0;
 }
 
 .topo{
     padding: 40px 50px;
-    z-index: 10;
+    z-index: 0;
 }
 .films{
     display: flex;
@@ -42,7 +42,7 @@ body{
   align-items:center;
   display: flex;
   justify-content: center;
-  padding-bottom: 60px;
+  padding-bottom: 0px;
   width: 100%; 
 }
 
@@ -61,7 +61,7 @@ body{
   flex-direction: column;
   position: relative;
   margin: 60px 0;
-  z-index: 9;
+  z-index: 0;
 }
 
 .filme-titulo{
@@ -98,27 +98,89 @@ body{
     border-radius:0;
     padding: 15px 20px;
     width: 35%;
+    z-index: 0;
 }
 
 .BotaoPesquisar{
     background-color: #e50914;
-    border: 0;
+    border: none;
     cursor: pointer;
     color: pointer;
     font-size: 25px;
     padding: 15px 30px;
     transition: all .2s ease-in-out;
+    z-index: 0;
 }
 
-
-.filme ul {
-  margin: auto;
+.logo img{
+  height: 45px;
+  width: 167px;
+  position: relative;
+  z-index: 0;
 }
 
-.filme li {
-  display: inline-block;
-  padding: 100px;
+body::before{
+  content: '';
+  background-color: rgba(0, 0, 1, 0.699);
+  min-height: 100vh;
+  position: fixed;
+  z-index: 0;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
   
 }
 
 
+
+
+/* PARA AJUSTAR DE ACORDO COM O CELULAR INSIRA OS COMPONENTES NO @MERIA ABAXO */
+
+
+
+@media screen and (max-width: 700px) {
+  .filme ul {
+    display: flex;
+    margin-left: 0px;
+    
+  }
+  
+  .filme li {
+    margin-top: 200px;
+    z-index: 10;
+    list-style: none;
+  }
+  .filme li img{
+    z-index: 0;
+    max-width: 200px;
+    list-style: none;
+    position: relative;
+    padding: 0;
+    
+  }
+  .Lista_de_filmes{
+    background-color: black;
+  }
+  .filme-titulo, .filme-msg{
+    display: none;
+  }
+  .logo img{
+    left: 55px;
+    position: relative;
+  }
+  .BotaoPesquisar{
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px;
+  } 
+  .TextoPesquisar{
+    border-bottom-left-radius: 20px;
+    border-top-left-radius: 20px;
+  }
+  .Texto-filme-filho h2{
+    margin: auto;
+    position: relative;
+    text-align: center;
+  }
+
+}
