@@ -56,6 +56,8 @@ function Pesquisa(e){
 
 
 
+
+
 window.onload = () => {
     const submit = document.querySelector('.BotaoPesquisar');
     submit.addEventListener('click', Pesquisa);
