@@ -3,8 +3,7 @@ const senha_erick = "Erick123"
 const email_lucas = "Lucas@Metflix.com.br"
 const senha_lucas = "Lucas123"
 
-function go(e){
-    e.preventDefault();
+function go{
     var emailvalidação = document.getElementById("Email").value;
     var senhavalidação = document.getElementById("senha").value;
 
