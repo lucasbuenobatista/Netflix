@@ -10,7 +10,7 @@ function go(e){
 
 
     if(emailvalidação == email_erick && senhavalidação == senha_erick){
-        location.href = "";
+        location.href = "home.html";
     }
     else if(emailvalidação == email_lucas && senhavalidação == senha_lucas){
         location.href = "home.html";
